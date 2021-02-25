@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="MovieAdapter" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Detail" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -30,18 +30,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f7ed529-5be3-48d9-bea0-162f079476eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/yutinggan/flixster/adapters/MovieAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/yutinggan/flixster/models/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MovieApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/YouTubeAndroidPlayerApi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/yutinggan/flixster/DetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/yutinggan/flixster/adapters/MovieAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/yutinggan/flixster/adapters/MovieAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/codepath/yutinggan/flixster/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/codepath/yutinggan/flixster/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/item_movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_movie.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +82,12 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/libs" />
+    </key>
+    <key name="android.template.-1413227233">
+      <recent name="com.codepath.yutinggan.flixster" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/layout-land" />
     </key>
@@ -176,16 +181,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1342" y="428" key="#PSD" timestamp="1613270677736">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
     <state x="1342" y="428" key="#PSD/0.23.2560.1333@0.23.2560.1333" timestamp="1613270677736" />
-    <state x="1744" y="397" key="#com.intellij.ide.util.MemberChooser" timestamp="1613271656687">
+    <state x="1744" y="397" key="#com.intellij.ide.util.MemberChooser" timestamp="1614207054543">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
-    <state x="1744" y="397" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1333@0.23.2560.1333" timestamp="1613271656687" />
+    <state x="1744" y="397" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1333@0.23.2560.1333" timestamp="1614207054543" />
     <state x="1543" y="451" key="AndroidCreateResourceDirectoryDialog" timestamp="1613273536111">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
@@ -194,22 +200,22 @@
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
     <state x="1560" y="451" key="AndroidCreateResourceFileDialog/0.23.2560.1333@0.23.2560.1333" timestamp="1613273387904" />
-    <state width="1557" height="381" key="GridCell.Tab.0.bottom" timestamp="1613274335834">
+    <state width="1406" height="339" key="GridCell.Tab.0.bottom" timestamp="1614214040763">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1613274335834" />
-    <state width="1557" height="381" key="GridCell.Tab.0.center" timestamp="1613274335834">
+    <state width="1406" height="339" key="GridCell.Tab.0.bottom/0.23.2560.1333@0.23.2560.1333" timestamp="1614214040763" />
+    <state width="1406" height="339" key="GridCell.Tab.0.center" timestamp="1614214040762">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.center/0.23.2560.1333@0.23.2560.1333" timestamp="1613274335834" />
-    <state width="1557" height="381" key="GridCell.Tab.0.left" timestamp="1613274335834">
+    <state width="1406" height="339" key="GridCell.Tab.0.center/0.23.2560.1333@0.23.2560.1333" timestamp="1614214040762" />
+    <state width="1406" height="339" key="GridCell.Tab.0.left" timestamp="1614214040762">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.left/0.23.2560.1333@0.23.2560.1333" timestamp="1613274335834" />
-    <state width="1557" height="381" key="GridCell.Tab.0.right" timestamp="1613274335834">
+    <state width="1406" height="339" key="GridCell.Tab.0.left/0.23.2560.1333@0.23.2560.1333" timestamp="1614214040762" />
+    <state width="1406" height="339" key="GridCell.Tab.0.right" timestamp="1614214040763">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
-    <state width="1557" height="381" key="GridCell.Tab.0.right/0.23.2560.1333@0.23.2560.1333" timestamp="1613274335834" />
+    <state width="1406" height="339" key="GridCell.Tab.0.right/0.23.2560.1333@0.23.2560.1333" timestamp="1614214040763" />
     <state width="1490" height="380" key="GridCell.Tab.1.bottom" timestamp="1613274044175">
       <screen x="0" y="23" width="2560" height="1333" />
     </state>
