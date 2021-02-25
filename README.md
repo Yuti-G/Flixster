@@ -19,11 +19,13 @@
 
 ### App Walkthough GIF
 
-<img src="https://submissions.us-east-1.linodeobjects.com/android_university/PfiS2t0t.gif" width=250><br>
+https://submissions.us-east-1.linodeobjects.com/android_university/PfiS2t0t.gif
+
+![](/gif/assignment2gif.gif)
 
 ### Notes
 
-Describe any challenges encountered while building the app.
+Bonus are challenged.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
@@ -56,7 +58,7 @@ https://submissions.us-east-1.linodeobjects.com/android_university/VGn6FZvc.gif
 
 
 ### Notes
-Describe any challenges encountered while building the app.
+Bonus are challenged.
 
 ### Open-source libraries used
 
